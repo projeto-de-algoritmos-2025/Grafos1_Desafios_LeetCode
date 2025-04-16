@@ -16,7 +16,9 @@ A dupla escolheu dois exercícios na plataforma online [LeetCode](https://leetco
 ## Screenshots
 
 - [329 (Difícil)]([https://leetcode.com/problems/reachable-nodes-in-subdivided-graph](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/))
-![PrintResolucao329]()
+![329](assets/image.png)
+
+- [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/submissions/1608095120)![329](assets/submitted.png)
 
 
 ## Instalação 
