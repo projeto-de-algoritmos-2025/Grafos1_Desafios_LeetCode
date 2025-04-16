@@ -20,6 +20,8 @@ A dupla escolheu dois exercícios na plataforma online [LeetCode](https://leetco
 
 - [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/submissions/1608095120)![329](assets/submitted.png)
 
+- [1192(Difícil)](https://leetcode.com/problems/critical-connections-in-a-network/)
+
 
 ## Instalação 
 **Linguagens**: Python
