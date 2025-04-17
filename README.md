@@ -31,6 +31,8 @@ Foram escolhidos dois exercícios da plataforma online [LeetCode](https://leetco
 ![785](assets/785.png)
 [Código](code/785.py)
 
+## Vídeo Explicativo
+https://github.com/user-attachments/assets/7b80f42b-5bc4-412b-ae3f-374be8910596
 
 ## Instalação 
 **Linguagens**: Python
