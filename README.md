@@ -10,21 +10,26 @@
 | 22/2037620 | Wanjo Christopher Paraizo Escobar  |
 
 ## Sobre 
-A dupla escolheu dois exercícios na plataforma online [LeetCode](https://leetcode.com/): dois de nível difícil e dois de nível médio.
+Foram escolhidos dois exercícios da plataforma online [LeetCode](https://leetcode.com/):
+- Dois de nível difícil.
+- Um de nível médio.
 
 
 ## Screenshots
 
-- [329 (Difícil)]([https://leetcode.com/problems/reachable-nodes-in-subdivided-graph](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/))
+- [329. Longest Increasing Path in a Matrix (Difícil)]([https://leetcode.com/problems/reachable-nodes-in-subdivided-graph](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/))
 ![329](assets/image.png)
 
-- [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/submissions/1608095120)![329](assets/submitted.png)
+- ![329](assets/submitted.png)
 
-- [1192(Difícil)](https://leetcode.com/problems/critical-connections-in-a-network/)
+- [1192. Critical Connections in a Network (Difícil)](https://leetcode.com/problems/critical-connections-in-a-network/)
 ![](assets/1192.png)
 
-- [1192](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/submissions/1608095120/)
-![1192](assets/submitted1192.png)
+- ![1192](assets/submitted1192.png)
+
+- [785 - Is Graph Bipartite? (Médio)](https://leetcode.com/problems/is-graph-bipartite/description/)
+![785](assets/785.png)
+[Código](code/785.py)
 
 ## Instalação 
 **Linguagens**: Python
