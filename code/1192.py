@@ -1,36 +1,33 @@
 from typing import List
-from collections import defaultdict
 
 class Solution:
-    def criticalConnections(self, n: int, conexoes: List[List[int]]) -> List[List[int]]:
-        # Grafo como lista de adjacência
+    def criticalConnections(self, n: int, connections: List[List[int]]) -> List[List[int]]:
+        from collections import defaultdict
+
         grafo = defaultdict(list)
-        for u, v in conexoes:
+        for u, v in connections:
             grafo[u].append(v)
             grafo[v].append(u)
-        
-        tempo = 0
-        tempo_entrada = [-1] * n
-        menor_tempo = [-1] * n
-        pontes = []
 
-        def dfs(no: int, pai: int):
-            nonlocal tempo
-            tempo_entrada[no] = menor_tempo[no] = tempo
-            tempo += 1
+        ordem = [-1] * n  # tempo de descoberta
+        baixo = [-1] * n  # menor tempo alcançável
+        tempo = [0]
+        resultado = []
+
+        def dfs(no, pai):
+            ordem[no] = baixo[no] = tempo[0]
+            tempo[0] += 1
 
             for vizinho in grafo[no]:
                 if vizinho == pai:
                     continue
-                if tempo_entrada[vizinho] == -1:
+                if ordem[vizinho] == -1:  # ainda não visitado
                     dfs(vizinho, no)
-                    menor_tempo[no] = min(menor_tempo[no], menor_tempo[vizinho])
-
-                    # Verifica se a aresta é uma ponte
-                    if menor_tempo[vizinho] > tempo_entrada[no]:
-                        pontes.append([no, vizinho])
+                    baixo[no] = min(baixo[no], baixo[vizinho])
+                    if baixo[vizinho] > ordem[no]:
+                        resultado.append([no, vizinho])
                 else:
-                    menor_tempo[no] = min(menor_tempo[no], tempo_entrada[vizinho])
+                    baixo[no] = min(baixo[no], ordem[vizinho])
 
         dfs(0, -1)
-        return pontes
+        return resultado

@@ -19,17 +19,18 @@ Foram escolhidos dois exercícios da plataforma online [LeetCode](https://leetco
 
 - [329. Longest Increasing Path in a Matrix (Difícil)]([https://leetcode.com/problems/reachable-nodes-in-subdivided-graph](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/))
 ![329](assets/image.png)
-
-- ![329](assets/submitted.png)
+![](assets/submitted.png)
+[Código](code/329.py)
 
 - [1192. Critical Connections in a Network (Difícil)](https://leetcode.com/problems/critical-connections-in-a-network/)
 ![](assets/1192.png)
-
-- ![1192](assets/submitted1192.png)
+![](assets/submitted1192.png)
+[Código](code/1192.py)
 
 - [785 - Is Graph Bipartite? (Médio)](https://leetcode.com/problems/is-graph-bipartite/description/)
 ![785](assets/785.png)
 [Código](code/785.py)
+
 
 ## Instalação 
 **Linguagens**: Python
